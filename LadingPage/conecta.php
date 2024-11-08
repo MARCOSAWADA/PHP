@@ -17,7 +17,8 @@ if($con->connect_error){
     die("FaLhA nA cOnExÃo " . mysqli_error($con));
 }
 else{
-    echo "<br> <h1> <mark><ins> CONECTADO COM SUCESSO!!!! </h1> </mark></ins>";
+    echo "<br> <h1> <mark><ins> CONECTADO COM SUCESSO <br><br>AO BANCO DE DADOS!!!! </h1> </mark></ins>";
+    echo "<script> alert('CONECTADO COM SUCESSO!!!!')</script> ";
 
 
 }

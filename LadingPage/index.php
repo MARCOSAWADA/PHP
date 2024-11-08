@@ -1,5 +1,4 @@
-<!-- http://localhost/php/10-30/index.php -->
-
+<!-- http://localhost/php/LadingPage/index.php -->
 
 <!-- veio do cadastro_recebe.php -->
 <?php

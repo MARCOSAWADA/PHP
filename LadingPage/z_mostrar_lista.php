@@ -1,4 +1,4 @@
-<!-- http://localhost/php/10-30/test30.php -->
+<!-- http://localhost/php/LadingPage/z_mostrar_lista.php -->
 <!-- NÃO USAR O LINK ACIMA, POIS ELE É A RESPOSTA DO CADASTRO.HTML -->
 
 <!-- __________________________________________________________________________-->

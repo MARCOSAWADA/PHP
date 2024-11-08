@@ -1,4 +1,4 @@
-<!-- http://localhost/php/10-30/cadastro_recebe.php -->
+<!-- http://localhost/php/LadingPage/cadastro_recebe.php -->
 <!-- NÃO USAR O LINK ACIMA, POIS ELE É A RESPOSTA DO CADASTRO.HTML -->
 
 <?php

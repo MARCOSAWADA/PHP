@@ -1,4 +1,4 @@
-<!-- http://localhost/php/10-30/produto_recebe.php -->
+<!-- http://localhost/php/LadingPage/produto_recebe.php -->
 <!-- NÃO USAR O LINK ACIMA, POIS ELE É A RESPOSTA DO PRODUTO.HTML -->
 
 <?php

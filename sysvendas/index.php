@@ -1,4 +1,4 @@
-<!-- http://localhost/PHP/sysvendas/ -->
+<!-- http://localhost/php/sysvendas/index.php -->
 
 <?php
 
