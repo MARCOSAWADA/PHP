@@ -2,7 +2,7 @@
 
 <?php
 
-// Comentárioss
+// Comentários
 
 $nome = "Jão jão";
 
