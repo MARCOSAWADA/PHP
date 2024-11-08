@@ -1,0 +1,394 @@
+<!-- http://localhost/php2/LADINGPAGE/index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Lading Page Voucher 140</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- defer = deixa para o javascript rodar no final -->
+    <script src="src/js/menu.js" defer></script>
+    <script src="src/js/carrossel.js" defer></script>
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <i class="fa-solid fa-burger" id="nav-logo"> food</i>
+            <ul class="nav_list">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#menu">Cardápio</a></li>
+                <li class="nav-item"><a href="#depoimentos">Avaliações</a></li>
+                <li class="nav-item"><a href="index.php">Cadastre-se</a></li>
+
+            </ul>
+            <button class="btn-default">
+                Peça Aqui
+            </button>
+        </nav>
+        <button class="mobile-btn">
+            <i class="fa-solid fa-bars"></i>
+            <!-- <i class="fa-solid fa-bars"></i> -->
+        </button>
+        <!-- .mobile-menu>ul.mobile-nav-list>li.nav-item*3>a -->
+        <div class="mobile-menu">
+            <ul class="mobile-nav-list">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#menu">Cardápio</a></li>
+                <li class="nav-item"><a href="#depoimentos">Avaliações</a></li>
+                <li class="nav-item"><a href="index.php">Cadastrar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+        
+
+        <!-- .slide-box*3>img.img-desktop -->
+        <div class="slide-box primeiro">
+            <img src="src/imagem/imagem2/OUTBACK_100BOLD.jpg" alt="" class="img-desktop">
+        </div>
+        <div class="slide-box">
+            <img src="src/imagem/imagem2/ccMR2fgLALRxPpTYAforttQMLu2EZrLkgNecIlFl.jpg" alt="" class="img-desktop">
+        </div>
+        <div class="slide-box">
+            <img src="src/imagem/imagem2/shutterstock_1924461281.jpg" alt="" class="img-desktop">
+        </div>
+
+
+        <!-- .nav-auto>.auto-btn1*3 -->
+        <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+
+        <!-- .nav-manual>label.manual-btn*3 -->
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
+        </div>
+
+    </section>
+
+    <main class="content">
+        <section class="home" id="home">
+            <div class="shape"></div>
+            <div class="cta">
+                <h1 class="title">
+                    O sabor que vai até <span>VOCÊ.</span>
+                </h1>
+                <p class="descrição">
+                    Venha experimentar uma viagem gastronomica única, onde cada prato é preparado com ingredientes frescos e de alta qualidade.
+                </p>
+                <div class="cta_buttons">
+                    <a href="" class="btn-default">Ver Cardápio</a>
+                    <a href="" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (67)98765-4321
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="https://www.globo.com"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.google.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.uol.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>    
+            <div class="banner">
+                <img src="src/imagem/pngwing.com (2).png" alt="">
+            </div>
+            
+        </section>
+
+    </main>
+    <section class="menu" id="menu">
+        <h2 class="section-title">Cardápio</h2>
+        <h3 class="section-subtitle">Nossos pratos especiais</h3>
+        <div class="area-cards">
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="src/imagem/pngwing.com (1).png" alt="" class="card-imagem">
+                <h3 class="card-title">X-VOUCHER</h3>
+                <span class="card-descricao">
+                    O X-Voucher é um lanche audacioso e irresistível, feito para quem busca uma explosão de sabores.
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- i.fa-solid.fa-star*5      -->
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$ 40,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="depoimentos" id="depoimentos">
+        <img src="src/imagem/pngwing.com (6) (1).png" alt="" class="imagem-chef">
+        <div class="depoimentos-content">
+            <h2 class="section-title">
+                Depoimentos
+            </h2>
+            <h3 class="section-subtitle">
+                O que os clientes falam sobre nóix.
+            </h3>
+            <div class="area-feebacks">
+                <div class="feedbacks">
+                    <img src="src/imagem/pngwing.com (9) (1).png" alt="" class="image-avatar">
+                    <div class="feedback-content">
+                        <p>
+                            Mary Carolyne
+                            <span>
+                                <!--            i.fa-solid.fa-star*5 -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            O X-Podrão é uma opção deliciosa e prática para quem procura um lanche reforçado. Com um bom equilíbrio entre sabor e quantidade, é perfeito para um lanche rápido ou uma refeição casual. Apenas tenha em mente as calorias e o tempo de espera para aproveitar ao máximo a experiência!
+                        </p>
+                    </div>
+                </div>
+                <div class="feedbacks">
+                    <img src="src/imagem/pngwing.com (8) (1).png" alt="" class="image-avatar">
+                    <div class="feedback-content">
+                        <p>
+                            Mary Joacquin
+                            <span>
+                                <!--            i.fa-solid.fa-star*5 -->
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            O X-Podrão é uma escolha irresistível para quem busca um lanche saboroso e satisfatório. Com suas diversas opções de recheios e a possibilidade de personalização, ele atende a diferentes gostos e preferências. Seja para uma refeição rápida ou um lanche descontraído, o X-Lanche é uma ótima maneira de saciar a fome e desfrutar de um momento gostoso. Aproveite com moderação e bom apetite!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-default btn-ver">
+                Ver mais avaliações
+            </button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-itens">
+            <span class="copyright">
+                &copy 2024 MKS
+            </span>
+            <div class="social-media-buttons">
+                <a href="https://www.globo.com"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.google.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.uol.com"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
