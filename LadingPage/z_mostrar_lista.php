@@ -53,7 +53,26 @@ var_dump($result);
     </style>
 </head>
 <body>
-    <h1>Clientes cadastrados em Outubro</h1>
+
+<!-- ____________________________________________________________________________________ -->
+<!-- Para garantir que o formato funcione corretamente no Brasil, você pode configurar a localidade no PHP logo no início do script (caso não esteja configurada): Exemplo abaixo-->
+        <?php
+        setlocale(LC_TIME, 'pt-BR.UTF-8');
+        ?>
+<!-- ____________________________________________________________________________________ -->
+
+<!-- ____________________________________________________________________________________ -->
+    <!-- É possível exibir o mês atual automaticamente em vez de fixar "Outubro". Para isso, você pode utilizar PHP para pegar o mês atual e exibi-lo na página.
+
+    Aqui está a modificação no código:
+    - Utilize a função date() do PHP para obter o mês atual.
+    - Exiba o nome do mês atual dinamicamente.
+
+    Esse código usa a função strftime() para formatar o nome do mês de acordo com a localidade do servidor (no caso, configurado para o Brasil, vai exibir o mês por extenso em português). O formato %B retorna o nome completo do mês. -->
+
+        <h1>Clientes Cadastrados em <?php echo strftime('%B'); ?> </h1>
+    <!-- <h1>Clientes cadastrados em Outubro</h1> -->
+<!-- ____________________________________________________________________________________ -->
 
     <table border="1">
         <thead>

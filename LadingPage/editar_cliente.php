@@ -28,7 +28,7 @@ if($result->num_rows == 1){
 
     // convertendo o retorno do banco em array no PHP
     $row = mysqli_fetch_assoc($result);
-    $id_cli = $row['id'];
+    $id_cliente = $row['id'];
     $nome = $row['nome'];
     $cpf = $row['cpf'];
     $telefone = $row['telefone'];
